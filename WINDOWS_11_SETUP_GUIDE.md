@@ -219,5 +219,5 @@ After successfully running the Modesto example:
 
 - [Docker Desktop for Windows Documentation](https://docs.docker.com/desktop/windows/)
 - [WSL 2 Documentation](https://docs.microsoft.com/en-us/windows/wsl/)
-- [PyMapGIS Documentation](https://pymapgis.readthedocs.io/)
+- [PyMapGIS on PyPI](https://pypi.org/project/pymapgis/) - Main PyMapGIS library and installation
 - [Jupyter Lab Documentation](https://jupyterlab.readthedocs.io/)
