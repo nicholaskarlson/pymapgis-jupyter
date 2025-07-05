@@ -89,13 +89,33 @@ gdf.explore(column="cluster_id", cmap="viridis")
 - **Seaborn** - Statistical visualization
 - **MapClassify** - Choropleth classification
 
+## 📚 Documentation
+
+Comprehensive documentation is available in the `docs/` folder:
+
+### 🚀 Getting Started
+- **[Quick Start Guide](docs/QUICK_START.md)** - Get running in 5 minutes
+- **[Creating Custom Notebooks](docs/user-guides/creating-notebooks.md)** - Step-by-step notebook creation
+- **[City Analysis Templates](docs/user-guides/city-analysis-templates.md)** - Ready-to-use templates for different city sizes
+
+### 📖 User Guides
+- **[Data Import Guide](docs/user-guides/data-import.md)** - Working with your own spatial datasets
+- **[Visualization Guide](docs/user-guides/visualization-guide.md)** - Advanced mapping and visualization techniques
+
+### 💡 Examples
+- **[Basic Spatial Analysis](docs/examples/basic-spatial-analysis.md)** - Fundamental spatial operations and workflows
+
+### 🔧 For Developers
+- **[Complete Documentation Index](docs/README.md)** - Full documentation overview
+
 ## Development
 
 ### Adding New Notebooks
 
-1. Place `.ipynb` files in the `notebooks/` directory
-2. Rebuild the Docker image
-3. Or mount a volume for live development:
+1. **Use the templates**: Start with existing city templates in `notebooks/`
+2. **Follow the guide**: See [Creating Custom Notebooks](docs/user-guides/creating-notebooks.md)
+3. **Place files**: Add `.ipynb` files in the `notebooks/` directory
+4. **Test locally**: Mount a volume for live development:
 
 ```bash
 docker run -p 8888:8888 -v $(pwd)/notebooks:/home/jovyan/notebooks pymapgis-jupyter
